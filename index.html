@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>C80</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="main.js"></script>
+
+</head>
+<body>
+<center>
+<h3 style="margin-top: 20px; margin-bottom: 20px; ">
+	Lista de invitados a mi fiesta?😑
+</h3>
+
+<div id="filas">
+<span>1</span>
+<input type="text" placeholder="Nombre del alumno" id="nombre_alumno_1">
+<br>
+
+<span>2</span>
+<input type="text" placeholder="Nombre del alumno" id="nombre_alumno_2">
+<br>
+
+<span>3</span>
+<input type="text" placeholder="Nombre del alumno" id="nombre_alumno_3">
+<br>
+
+<span>4</span>
+<input type="text" placeholder="Nombre del alumno" id="nombre_alumno_4">
+</div>
+
+<button onclick="submit()" id="botón_enviar">
+	Enviar
+</button>
+
+<div id="mostrar_nombres_con_comas">
+</div>
+
+<hr>
+
+<div id="mostrar_nombres_sin_comas">
+</div>
+<input type="text"  placeholder="Buscar nombre" id="s1"></input>
+<button onclick="searching()" id="searching">
+    Buscar
+</button>
+<p id="p3"></p>
+
+
+<button onclick="sorting()" id="botón_ordenar">
+	Ordenar
+</button>
+</center>
+
+</script>
+</body>
+</html>
